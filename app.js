@@ -4,7 +4,7 @@ const { Sequelize,Op } = require('sequelize');
 const db=require("./models")
 
 const {test}=require("./models")
-const port=process.env.PORT||3000
+const port=9000
 app.use(express.json())
 
 app.get("/",function(req,res){
